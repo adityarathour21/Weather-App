@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>☁️ WEATHER</h1>
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Search city..." />
+        <button id="searchBtn">🔍</button>
+        <button id="geoBtn" title="Use my location">📍</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p style="margin-top:15px;">Loading weather...</p>
+      </div>
+    </main>
+
+    <footer>Data by Open-Meteo.com</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
